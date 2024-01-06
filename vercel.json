@@ -20,7 +20,11 @@
       "dest": "index.js"
     },
     {
-      "src": "/add",
+      "src": "/addproduct",
+      "dest": "dist/index.html"
+    },
+    {
+      "src": "/admin",
       "dest": "dist/index.html"
     },
     {
