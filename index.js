@@ -23,7 +23,7 @@ main().catch((err) => console.log(err.message));
 
 // router
 const productRouter = require("./routes/products");
-const userRouter = require("./routes/users");
+// const userRouter = require("./routes/users");
 
 // built-in middlewares:
 server.use(cors());
@@ -32,7 +32,7 @@ server.use(morgan("dev")); // logs
 server.use(express.static(path.resolve(__dirname, process.env.PUBLIC_DIR)));
 // routes
 server.use("/products", productRouter.router);
-server.use("/users", userRouter.router);
+// server.use("/users", userRouter.router);
 server.use("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "dist", "index.html"));
 });
