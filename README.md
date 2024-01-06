@@ -23,3 +23,6 @@ So, Mongoose.
 # Schema and Model and CRUD :
 
 # Deploy MERN on live Cloud Server
+
+vercel.json file -> config
+https://shadowsmith.com/thoughts/how-to-deploy-an-express-api-to-vercel
